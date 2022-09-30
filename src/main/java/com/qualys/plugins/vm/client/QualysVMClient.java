@@ -1216,7 +1216,9 @@ public class QualysVMClient extends QualysBaseClient {
             try {
             	factory.setValidating(false); 
             	factory.setFeature("http://apache.org/xml/features/nonvalidating/load-external-dtd", false);
-    		} catch (ParserConfigurationException ex) {    			
+				factory.setFeature("http://xml.org/sax/features/external-general-entities",false);
+				factory.setFeature("http://xml.org/sax/features/external-parameter-entities",false);
+			} catch (ParserConfigurationException ex) {
     			logger.info("Exception for XML external entity while getting Document. Reason: " + ex.getMessage()+ "\n");    	    	
     	    	return doc;
     		}            
