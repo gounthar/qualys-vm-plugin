@@ -11,7 +11,7 @@
   
   <groupId>com.qualys.plugins</groupId>
   <artifactId>qualys-vm</artifactId>
-  <version>1.2.1-SNAPSHOT</version>
+  <version>1.2.1</version>
   <packaging>hpi</packaging>
 
   <properties>   
@@ -137,7 +137,7 @@
        <connection>scm:git:ssh://github.com/jenkinsci/qualys-vm-plugin.git</connection>
        <developerConnection>scm:git:ssh://git@github.com/jenkinsci/qualys-vm-plugin.git</developerConnection>
        <url>https://github.com/jenkinsci/qualys-vm-plugin</url>
-    <tag>HEAD</tag>
+    <tag>qualys-vm-1.2.1</tag>
   </scm>
 
   <organization>
