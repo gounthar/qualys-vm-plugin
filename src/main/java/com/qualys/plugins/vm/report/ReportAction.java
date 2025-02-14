@@ -6,10 +6,6 @@ import java.util.logging.Logger;
 
 import org.apache.commons.io.FileUtils;
 import org.kohsuke.stapler.bind.JavaScriptMethod;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -22,7 +18,6 @@ import com.qualys.plugins.vm.client.QualysVMClient;
 import com.qualys.plugins.vm.client.QualysVMResponse;
 import com.qualys.plugins.vm.util.Helper;
 
-import hudson.AbortException;
 import hudson.Extension;
 import hudson.model.Action;
 import hudson.model.Run;
